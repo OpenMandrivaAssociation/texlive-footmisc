@@ -1,3 +1,9 @@
+# revision 23330
+# category Package
+# catalog-ctan /macros/latex/contrib/footmisc
+# catalog-date 2011-06-09 17:50:36 +0200
+# catalog-license lppl1.3
+# catalog-version 5.5b
 Name:		texlive-footmisc
 Version:	5.5b
 Release:	1
@@ -56,6 +62,7 @@ footnpag and by the rather more general-purpose perpage.
 #- source
 %doc %{_texmfdistdir}/source/latex/footmisc/footmisc.dtx
 %doc %{_texmfdistdir}/source/latex/footmisc/footmisc.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -66,3 +73,5 @@ footnpag and by the rather more general-purpose perpage.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
