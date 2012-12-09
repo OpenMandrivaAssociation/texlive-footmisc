@@ -62,3 +62,17 @@ footnpag and by the rather more general-purpose perpage.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 5.5b-2
++ Revision: 752050
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 5.5b-1
++ Revision: 718490
+- texlive-footmisc
+- texlive-footmisc
+- texlive-footmisc
+- texlive-footmisc
+
