@@ -6,7 +6,7 @@
 # catalog-version 5.5b
 Name:		texlive-footmisc
 Version:	5.5b
-Release:	11
+Release:	12
 Summary:	A range of footnote options
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/footmisc
