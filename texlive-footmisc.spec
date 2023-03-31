@@ -1,6 +1,6 @@
 Name:		texlive-footmisc
 Version:	62524
-Release:	1
+Release:	2
 Summary:	A range of footnote options
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/footmisc
