@@ -1,5 +1,5 @@
 Name:		texlive-footmisc
-Version:	69729
+Version:	69890
 Release:	1
 Summary:	A range of footnote options
 Group:		Publishing
